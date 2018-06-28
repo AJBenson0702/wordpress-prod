@@ -41,6 +41,9 @@ function mysql2date( $format, $date, $translate = true ) {
 		return date( $format, $i );
 }
 
+function doSomething($param){
+	return $param;
+}
 /**
  * Retrieve the current time based on specified type.
  *
