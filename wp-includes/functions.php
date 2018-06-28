@@ -635,6 +635,10 @@ function do_enclose( $content, $post_ID ) {
 	}
 }
 
+function hello(){
+	print("Hello");
+}
+
 /**
  * Retrieve HTTP Headers from URL.
  *
